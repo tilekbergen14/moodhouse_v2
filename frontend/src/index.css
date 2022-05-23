@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&family=Poppins:wght@200;300;400;800&display=swap");
+
+:root {
+  --primary: #080f24;
+  --danger: #ff034a;
+  --cyan: #00f0ff;
+  --blue: #0c8cfe;
+  --purple: #8400ff;
+  --success: #06d6a0;
+  --primary-text: #fff;
+  --secondary-text: #efefef;
+}
+
+*,
+button,
+input {
+  font-family: "Poppins", sans-serif !important;
+}
